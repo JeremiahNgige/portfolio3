@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header{
+    height: 150px;
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+    background: black;
+}
+#bannes{
+    width: 100%;
+    height: 700px;
+    position: fixed;
+    top: 150px;
+    background:linear-gradient(-45deg,#EE7752,#E73C7E,#23A6D5,#23D5AB);
+    background-size: 200% 100%;
+    color: #FFF;
+    text-align: center ;
+    opacity: 60%;
+   
+}
+.footer{
+    width: 100%;
+    height: 200px;
+    background: rgba(0, 0, 255, 0.11);
+}
+.lighten{
+    font-weight: lighter;
+    font-style: oblique;
+    color: darkblue;
+}
+.ol{
+    width: 400px;
+    float:right;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.ul{
+    width: 500px;
+    border-right:4px solid brown;
+    font-size: 25px;
+    letter-spacing: 2px;
+    float: left;
+}
+#content{
+    width: 100%;
+    position: relative;
+    top: 400px;
+    height: 1800px;
+    background-color: whitesmoke;
+}
+#img {
+    border-radius: 50%;
+    float: left;
+}
+#juu{
+    top: 100px;
+}
+#hdr-txt{
+    font-size: 80px;
+    color: white;
+    float:right;
+
+}
+h1{
+    font-size:5rem;
+    text-transform: uppercase;
+    font-weight: lighter;
+    border: 3px solid whitesmoke;
+    padding-left: 10px;
+    padding-bottom: 10%;
+}
+.card{
+    height: 400px;
+    color:black;
+    font-size: 30px;
+    background: rgba(0, 128, 128, 0.178);
+
+}
+.card2{
+    height: 400px;
+    color:black;
+    font-size: 30px;
+    background: hsla(128, 91%, 29%, 0.13);
+
+}
+.card3{
+    height: 400px;
+    color:black;
+    font-size: 30px;
+    background: rgba(52, 6, 94, 0.336);
+
+}
+.card4{
+    height: 400px;
+    color:black;
+    font-size: 30px;
+    background:  rgba(102, 0, 8, 0.356);
+
+}
+p#hdr-txt{
+    font-size: 40px;
+    border-radius: 20%;
+    background-size: 200% 100%;
+    background-repeat: no-repeat;
+    opacity: 80%;
+}
+.card.box-card{
+    width: 500px;
+    background-color:teal;
+}
+.card2.box-card2{
+    width: 500px;
+    background-color:hsla(128, 91%, 29%, 0.993);
+    float: right;
+
+}
+.card3.box-card3{
+    width: 500px;
+    background-color:rgb(52, 6, 94);
+}
+.card4.box-card4{
+    width: 500px;
+    background-color:rgba(102, 0, 8, 0.356);
+    float: right;
+}
+
+.card-txt.card.box-card{
+    font-size:5rem;
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: white;
+}
+.card-txt2.card2.box-card2{
+    font-size:5rem;
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: white;
+}
+.card-txt3.card3.box-card3{
+    font-size:5rem;
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: white;
+}
+.card-txt4.card4.box-card4{
+    font-size:5rem;
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: white;
+    
+}
+
+.bg{
+    background: teal;
+    opacity: 10%;
+}
+.card.shelter{
+    float: right;
+    letter-spacing: 3px;
+    height: 200px;
+    top: 600px;
+    background: transparent;
+
+}
+.card2.Recipe{
+    letter-spacing: 3px;
+    height: 200px;
+    width: 500px;
+    box-sizing: border-box;
+    background: transparent;
+
+}
+.card4.floats{
+    letter-spacing: 3px;
+    height: 200px;
+    width: 500px;
+    background: transparent;
+}
+.card3.first{
+    float: right;
+    letter-spacing: 3px;
+    height: 200px;
+    width: 500px;
+    background: transparent;
+}

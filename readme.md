@@ -8,7 +8,7 @@
  }
  Scroll down again to the footer section that contains My contact information.
  <br/>
-*link:*https://jeremiahngige.github.io/portfolio3/
+**link**  https://jeremiahngige.github.io/portfolio3/
 
 ## Technologies Used
 Html<br/>css

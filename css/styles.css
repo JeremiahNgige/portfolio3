@@ -7,7 +7,8 @@ body{
     color: white;  
 }
 header {
-    background: transparent;
+    background: rgba(0, 0, 0, 0.986);
+    box-shadow: black 3px 0px 1px 0px;
     width: 100%;
     height: 50px;
     position: fixed;
@@ -21,7 +22,7 @@ header {
     background: whitesmoke;
 }
 .landing{
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.808), rgba(0, 0, 0, 0.959)),
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.808), rgba(0, 0, 0, 0.979)),
     url(/images/portfolio.jpg) no-repeat bottom ;
     background-size: cover;
     position: relative;
@@ -54,24 +55,39 @@ header {
 }
 .p{
     margin: 15px 10px 10px 10px;
-    font-size: 20px;
+    font-size: 19px;
 }
 #all-caps{
     position: absolute;
     text-transform: uppercase;
     text-align: center;
     top: 200px;
-    left: 50px;
-    width: 400px;
-    color: whitesmoke;
+    left: 100px;
+    width: 700px;
+    font-size: 50px;
 }
 
-#h1 {
-    top: 250px;
-    left: 20px;
-    text-align: center;
-    font-weight: bolder;
-    font-size: 40px;
-    width: 700px;
+#name{
     position: absolute;
+    text-align: center;
+    top: 110px;
+    left: 30px;
+    width: 600px;
+    font-size: 65px;
 }
+#inspiration{
+    color: rgba(172, 171, 171, 0.952);
+    font-size: 29px;
+    position: absolute;
+    top: 330px;
+    left: 140px;
+}
+#who{
+    color: rgba(172, 171, 171, 0.952);
+    font-size: 25px;
+    position: absolute;
+    top: 380px;
+    left: 430px;
+    text-transform: lowercase;
+    font-style: italic;
+}   

@@ -2,3 +2,15 @@
     margin: 0;
     padding: 0;
 }
+body{
+    font-family: Arial;  
+}
+header {
+    background: black;
+    width: 100vh;
+    height: 30vh;
+    position: fixed;
+}
+.container{
+    background: url(/images/mepic.jpg);
+}

@@ -130,3 +130,53 @@ header {
 #p3{
     margin-top: 20px;
 }
+.work{
+   width: 100vw;
+   height: 100vh;
+   background:lavender 
+}
+.work1{
+    border: lightblue 2px solid;
+    position: absolute;
+    height: 65vh;
+    width: 30%;
+    margin-top: 100px;
+    left: 10px;
+    border-radius: 20px;
+    background: white;
+}
+.work2{
+    border: lightblue 2px solid;
+    position: absolute;
+    height: 65vh;
+    width: 30%;
+    margin-top: 100px;
+    right: 470px;
+    border-radius: 20px;
+    background: white;
+}
+.work3{
+    border: lightblue 2px solid;
+    position: absolute;
+    height: 65vh;
+    width: 30%;
+    margin-top: 100px;
+    right: 10px;
+    border-radius: 20px;
+    background: white;
+}
+#web-first{
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    border-bottom: lightblue 2px solid;
+    
+}
+#description{
+    position: absolute;
+    width: 100%;
+    height: 75%;
+    margin-top: 95px;
+    background: lightcoral;
+    border-radius: 0px 0px 20px 20px;
+}

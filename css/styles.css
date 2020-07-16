@@ -208,6 +208,8 @@ header {
 }
 .middle{
     margin-left: 40px;
+    width: 30%;
+    margin-top: 20px;
 }
 #ghub{
     height: 30%;
@@ -215,4 +217,9 @@ header {
 }
 #p5{
     margin-top: 20px;
+}
+.footer{
+    width: 100vw;
+    height: 40vh;
+    background: rgba(59, 59, 59, 0.945);
 }
